@@ -1,0 +1,1 @@
+# clouder_template_odoo1

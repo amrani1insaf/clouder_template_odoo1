@@ -542,26 +542,19 @@
         </record>
         <record id="app_odoo_vertmedical_option_default_account_chart" model="clouder.application.type.option">
             <field name="application_id" ref="app_odoo_vertmedical"/>
-            <field name="name">default_account_chart</field>
-            <field name="type">application</field>
-            <field name="auto" eval="True"/>
+            <field name="name" ref="apptype_odoo_option_poweruser_groups"/>
         </record>
         <record id="app_odoo_vertmedical_option_install_modules" model="clouder.application.option">
             <field name="application_id" ref="app_odoo_vertmedical"/>
-            <field name="name" ref="app_odoo_vertmedical_option_install_modules"/>
-            <field name="value"></field>
+            <field name="name" ref="apptype_odoo_option_install_modules"/>
         </record>
         <record id="app_odoo_vertmedical_option_test_install_modules" model="clouder.application.type.option">
             <field name="application_id" ref="app_odoo_vertmedical"/>
-            <field name="name">test_install_modules</field>
-            <field name="type">application</field>
-            <field name="auto" eval="True"/>
+            <field name="name" ref="apptype_odoo_option_test_install_modules"/>
         </record>
         <record id="app_odoo_vertmedical_option_poweruser_groups" model="clouder.application.type.option">
             <field name="application_id" ref="app_odoo_vertmedical"/>
-            <field name="name">poweruser_group</field>
-            <field name="type">application</field>
-            <field name="auto" eval="True"/>
+            <field name="name"ref="apptype_odoo_option_poweruser_groups"/>
         </record>
 
         <record id="app_odoo_vertmedical_data" model="clouder.application">

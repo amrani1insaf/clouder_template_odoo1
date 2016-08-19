@@ -542,7 +542,7 @@
         </record>
         <record id="app_odoo_vertmedical_option_default_account_chart" model="clouder.application.type.option">
             <field name="application_id" ref="app_odoo_vertmedical"/>
-            <field name="name" ref="apptype_odoo_option_poweruser_groups"/>
+            <field name="name" ref="apptype_odoo_option_default_account_chart"/>
         </record>
         <record id="app_odoo_vertmedical_option_install_modules" model="clouder.application.option">
             <field name="application_id" ref="app_odoo_vertmedical"/>

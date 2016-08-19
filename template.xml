@@ -554,7 +554,7 @@
         </record>
         <record id="app_odoo_vertmedical_option_poweruser_groups" model="clouder.application.type.option">
             <field name="application_id" ref="app_odoo_vertmedical"/>
-            <field name="name"ref="apptype_odoo_option_poweruser_groups"/>
+            <field name="name" ref="apptype_odoo_option_poweruser_groups"/>
         </record>
 
         <record id="app_odoo_vertmedical_data" model="clouder.application">
